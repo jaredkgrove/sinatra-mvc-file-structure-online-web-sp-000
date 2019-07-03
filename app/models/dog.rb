@@ -1,4 +1,4 @@
-class Dog
+class ApplicationController::Dog
   attr_accessor :name, :breed, :age
   @@all = []
   def initialize(name, age, breed)
